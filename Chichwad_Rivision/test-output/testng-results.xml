@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening Flipkart]]>
+    </line>
+    <line>
+      <![CDATA[Opening Amazon ]]>
+    </line>
+    <line>
+      <![CDATA[Opening Ajio ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-10-21T17:33:26 IST" name="Suite" finished-at="2023-10-21T17:33:56 IST" duration-ms="29512">
+    <groups>
+    </groups>
+    <test started-at="2023-10-21T17:33:26 IST" name="AmazonTest" finished-at="2023-10-21T17:33:42 IST" duration-ms="15802">
+      <class name="serialParallelExcution.Amazon">
+        <test-method signature="amazonTest()[pri:0, instance:serialParallelExcution.Amazon@747ddf94]" started-at="2023-10-21T17:33:26 IST" name="amazonTest" finished-at="2023-10-21T17:33:42 IST" duration-ms="15677" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Amazon ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amazonTest -->
+      </class> <!-- serialParallelExcution.Amazon -->
+    </test> <!-- AmazonTest -->
+    <test started-at="2023-10-21T17:33:26 IST" name="FlipkartTest" finished-at="2023-10-21T17:33:50 IST" duration-ms="23715">
+      <class name="serialParallelExcution.Flipkart">
+        <test-method signature="flipkartTest()[pri:0, instance:serialParallelExcution.Flipkart@130d63be]" started-at="2023-10-21T17:33:26 IST" name="flipkartTest" finished-at="2023-10-21T17:33:50 IST" duration-ms="23625" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Flipkart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flipkartTest -->
+      </class> <!-- serialParallelExcution.Flipkart -->
+    </test> <!-- FlipkartTest -->
+    <test started-at="2023-10-21T17:33:26 IST" name="AjioTest" finished-at="2023-10-21T17:33:56 IST" duration-ms="29512">
+      <class name="serialParallelExcution.Ajio">
+        <test-method signature="ajioTest()[pri:0, instance:serialParallelExcution.Ajio@6aba2b86]" started-at="2023-10-21T17:33:26 IST" name="ajioTest" finished-at="2023-10-21T17:33:56 IST" duration-ms="29405" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Ajio ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ajioTest -->
+      </class> <!-- serialParallelExcution.Ajio -->
+    </test> <!-- AjioTest -->
+  </suite> <!-- Suite -->
+</testng-results>
